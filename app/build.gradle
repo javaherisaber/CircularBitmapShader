@@ -48,5 +48,6 @@ dependencies {
     // config
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(':circularbitmapshader')
+//    implementation project(':circularbitmapshader')
+    implementation 'ir.logicbase.util:circularbitmapshader:1.0'
 }
