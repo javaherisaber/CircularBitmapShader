@@ -1,11 +1,12 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.javaherisaber'
 
 android {
-    compileSdkVersion 28
-
+    compileSdkVersion config.compileSdk
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 28
+        minSdkVersion config.minSdk
+        targetSdkVersion config.targetSdk
         versionCode 1
         versionName "1.0"
     }
