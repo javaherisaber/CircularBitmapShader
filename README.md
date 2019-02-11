@@ -1,5 +1,5 @@
 # CircularBitmapShader
-[ ![Bintray](https://api.bintray.com/packages/logicbase/maven/circularbitmapshader/images/download.svg) ](https://bintray.com/logicbase/maven/circularbitmapshader/_latestVersion)
+[![](https://jitpack.io/v/javaherisaber/CircularBitmapShader.svg)](https://jitpack.io/#javaherisaber/CircularBitmapShader)
 
 ![Hero Image](https://github.com/javaherisaber/CircularBitmapShader/blob/master/images/hero.png)
 
@@ -14,9 +14,7 @@ To use this library you need to add following scripts to your project
 allprojects {
         repositories {
             ...
-            maven {
-                url  "https://logicbase.bintray.com/maven"
-            }
+            maven { url 'https://jitpack.io' }
         }
     }
 ```
@@ -24,7 +22,7 @@ allprojects {
 **Step 2**. Add dependency
 ```groovy
 dependencies {
-    implementation 'ir.logicbase.util:circularbitmapshader:1.0'
+    implementation "com.github.javaherisaber:CircularBitmapShader:${versions.circularBitmapShader}"
 }
 ```
 
